@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="b5088a43-8b3a-4164-bbc1-b9fd74300c07" name="UMLUseCaseDiagram2" linkedPackageId="b667c719-c80c-41bb-a77f-df920e23e175" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="4945b6ce-c242-4efd-94be-8f5b481e44ed">
+      <profileInstance Id="a6de7747-6367-4b19-8a8c-9f24f8ba4b3d" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="52b97cb1-d343-41ea-a93f-fd59c8185a89">
+      <profileInstance Id="c38c14bf-d100-4c94-888e-15e0802532e5" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="bd9c6ae4-9ced-4af6-b482-5d77acb8cc04" name="Deltek Employee" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="8a7b15d4-680b-4642-99d0-d72b6c0a6e23" />
+        <targetEnds>
+          <association Id="4be19d04-eed4-454e-9215-877c0ee45972" isDerived="false" sourceEndRoleName="Deltek Employee" targetEndRoleName="Login Using Deltek     Employee        Credential" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="3281fbc2-5e35-43f3-9554-36f297b2efab" LastKnownName="Login Using Deltek     Employee        Credential" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ade7066c-2ccd-4834-8d0d-8bb29a04547e" name="Deltek Employee" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="223f3f97-e290-4ff9-a934-ba076352e002" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="91431cf1-f0de-4a0e-8d7f-a2c5290cf1ef" name="Login Using Deltek     Employee        Credential" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="c9394fb0-a627-4c96-815b-5431a8d31670" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="563e89f0-7537-468f-92ec-a18e7499f85e" />
+          </association>
+          <association Id="149bc47b-2344-400e-aa6b-17d30b7480fb" isDerived="false" sourceEndRoleName="Deltek Employee" targetEndRoleName="Check for Expected Incoming Mail" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="64845cea-3e8d-4609-a708-a8c5864cc4d3" LastKnownName="Check for Expected Incoming Mail" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="50ec832a-dd7f-412c-b8dc-fa3939d4b58e" name="Deltek Employee" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="fbce4371-ca73-4ea8-aff3-f2876176ed81" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7f241437-8201-45fd-bc50-ff05267b070b" name="Check for Expected Incoming Mail" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="883063a5-ddd4-4e51-8ef1-aaa1eb83edbd" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="db698f57-0ca0-4767-a921-84050cbec5ac" />
+          </association>
+          <association Id="916e0977-6e22-455d-9bbd-bbe09aca73b4" isDerived="false" sourceEndRoleName="Deltek Employee" targetEndRoleName="Recieve Mail" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="571e9481-efdd-401f-b99b-e1d859ae5588" LastKnownName="Recieve Mail" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="684f181e-9b9c-40b4-8843-e66b56be9f01" name="Deltek Employee" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="656422b2-adc2-475e-9c18-f4c9524d03b3" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="49b6df98-8dec-4603-92a3-23b1418bf329" name="Recieve Mail" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="639768bf-d822-43fc-bdda-34c41e51b5b6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="ffaf1886-d6d9-43a1-851e-5c7e65468b1f" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="3281fbc2-5e35-43f3-9554-36f297b2efab" name="Login Using Deltek     Employee        Credential" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="922f4275-f27a-48f2-bb67-b77052564a02" />
+        <additions>
+          <include Id="03b1c0eb-db90-44e0-9224-59569777eb80">
+            <useCaseMoniker Id="30b2a6a0-1ee5-4b1d-ae6a-dcf46ffbe3ec" LastKnownName="Verify Employee" />
+            <elementDefinition Id="9bce6458-c740-4b8f-b916-74bafd98d99a" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="64845cea-3e8d-4609-a708-a8c5864cc4d3" name="Check for Expected Incoming Mail" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e588e396-6c59-4830-b597-208e8080c126" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="571e9481-efdd-401f-b99b-e1d859ae5588" name="Recieve Mail" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e740fed1-e600-44e0-863f-11f2c1f59be1" />
+        <additions>
+          <include Id="61b1919b-deee-42eb-abb3-e7042127f432">
+            <useCaseMoniker Id="5f048115-9cea-40c9-8ea4-95839bcc5e51" LastKnownName="Verify Recieved" />
+            <elementDefinition Id="3555824e-941a-414a-aabd-e99a5843a668" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="9cd458fe-0da2-41a2-9d78-57933ed3afb5" name="Deliver" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="cc6d6bed-b391-43bc-86a5-31eda46870ab" />
+        <generalsInternal>
+          <generalization Id="d7705433-bf8f-4b8a-afe3-c0a05854fa43" isSubstitutable="false">
+            <useCaseMoniker Id="571e9481-efdd-401f-b99b-e1d859ae5588" LastKnownName="Recieve Mail" />
+            <elementDefinition Id="911efd96-4b4f-4671-a371-1c90964203f1" />
+          </generalization>
+        </generalsInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="59def8ed-8930-49f4-92c7-ef2dfd5bda0b" name="Pick up" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="d9ff3e69-f2cf-4681-a0e1-5ce94e293c83" />
+        <generalsInternal>
+          <generalization Id="0aac119c-320e-44cc-8066-edfc5653cb11" isSubstitutable="false">
+            <useCaseMoniker Id="571e9481-efdd-401f-b99b-e1d859ae5588" LastKnownName="Recieve Mail" />
+            <elementDefinition Id="b849c393-c40d-49af-8fe2-fac4299f9ea2" />
+          </generalization>
+        </generalsInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="30b2a6a0-1ee5-4b1d-ae6a-dcf46ffbe3ec" name="Verify Employee" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="0946ee48-54e1-496e-9944-e9c8d7cf70ae" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="99de3a33-9880-41fa-b598-eb55a92b4ac7" name="Employee Nominee" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="78dabda0-a603-40d1-9fe4-69d1a488e9ec" />
+        <targetEnds>
+          <association Id="8869b445-526e-4b20-b4bc-3e82b149181d" isDerived="false" sourceEndRoleName="Employee Nominee" targetEndRoleName="Recieve Mail" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="571e9481-efdd-401f-b99b-e1d859ae5588" LastKnownName="Recieve Mail" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="697c8df1-cf80-45d8-8194-6e947bc3268c" name="Employee Nominee" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="0ecd98c5-126d-4b12-a746-9a741542a765" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a57893cb-0f17-4bfc-bbf8-9fba429f9cc2" name="Recieve Mail" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="297af664-a702-40d2-8844-d0a2376ecd77" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="2aebeeb6-100c-4b7e-a0cc-37baa3f0142e" />
+          </association>
+          <association Id="441c6f41-0915-48c4-94c7-4c64fdc0f752" isDerived="false" sourceEndRoleName="Employee Nominee" targetEndRoleName="Reicieve Nomination from another employee" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="43fcd62c-0381-4f9e-81a4-5ccb31f541d6" LastKnownName="Reicieve Nomination from another employee" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d60196cd-e866-46ea-b9a2-e6b77afba2be" name="Employee Nominee" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="dc3aae31-ec93-4672-b27a-9d1c49118c63" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f175ca77-87f9-4f0e-98e8-af7118f8ebca" name="Reicieve Nomination from another employee" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="9f249a05-2bd6-4a90-b1aa-a9a15381b8b0" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="09ec0f43-9c43-4576-83b7-e90b0a3f7833" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="43fcd62c-0381-4f9e-81a4-5ccb31f541d6" name="Reicieve Nomination from another employee" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e011b7aa-5822-4f3b-a122-36217a5803f0" />
+        <additions>
+          <include Id="c5694bf7-43ae-4000-a9a3-ffb4802baf5b">
+            <useCaseMoniker Id="684f8d9a-0bf0-4a30-8bf0-bba229823d22" LastKnownName="Accept " />
+            <elementDefinition Id="d80d426f-fe4a-487b-a90e-e5f7e946f5fd" />
+          </include>
+          <include Id="b5db3b98-d2be-4da1-a0ae-281a9bf80502">
+            <useCaseMoniker Id="68954937-ed58-4eeb-89ac-26ae443f5741" LastKnownName="Reject" />
+            <elementDefinition Id="b091e3cc-30dd-4ba1-8bcf-b64e84c89883" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="68954937-ed58-4eeb-89ac-26ae443f5741" name="Reject" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="5ae905b0-737d-474d-a9c5-4785180491b9" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="684f8d9a-0bf0-4a30-8bf0-bba229823d22" name="Accept " isAbstract="false" isLeaf="false">
+        <elementDefinition Id="39370be8-c1a9-421c-ad11-da6e1b5cf909" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="4cbd01ba-39ac-4a5b-8bd1-ec7b5bc0dc97" name="Record Recieved Mail" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="2cfa7157-2894-428b-96ef-9d42636460a0" />
+        <extendedCases>
+          <extend Id="670e2d28-2e9c-4766-b050-24afc87fc5f1">
+            <useCaseMoniker Id="83293aed-69e5-43e3-99d4-9945eb39a56d" LastKnownName="Manual Text Input" />
+            <elementDefinition Id="9f32abd8-8b0c-46dc-b81a-bf66ad6230cf" />
+          </extend>
+        </extendedCases>
+        <additions>
+          <include Id="5e945978-eb21-4948-98d8-e220e96dfd38">
+            <useCaseMoniker Id="5b2a4963-cbda-4128-8a1a-480ca513e145" LastKnownName="Use OCR SCanner" />
+            <elementDefinition Id="b9904513-56aa-4988-b38a-bfb61a8f45fe" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="5b2a4963-cbda-4128-8a1a-480ca513e145" name="Use OCR SCanner" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="1daa894f-06da-4aca-bd5c-be62b45f5d50" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="83293aed-69e5-43e3-99d4-9945eb39a56d" name="Manual Text Input" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="1b2f9e0a-6a74-471a-a5da-fa5c493963a8" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="dfcd3035-01a8-4218-b133-8b87f5c2b44b" name="Human Resource" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b83aeef5-4575-4ac3-bfca-bf5cc87b15f8" />
+        <targetEnds>
+          <association Id="85f2affc-8c6c-44dd-9e7b-9abb8c46acd5" isDerived="false" sourceEndRoleName="HumanResource" targetEndRoleName="Record Recieved Mail" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="4cbd01ba-39ac-4a5b-8bd1-ec7b5bc0dc97" LastKnownName="Record Recieved Mail" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="46663646-e414-44e0-aaec-fc84778f1d5f" name="HumanResource" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="99e5a1d2-8c05-412c-97e5-f0bb216d3c7c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="cfec1dfa-d8a7-456c-b245-4fd2a1f1f9ed" name="Record Recieved Mail" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="2daae116-572a-4e7b-bbf7-731ace2a1ef6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="35f0094c-9f11-43b9-90bd-db6ee86d080d" />
+          </association>
+          <association Id="9e19dc17-685d-47ae-888f-8aeded5da388" isDerived="false" sourceEndRoleName="HumanResource" targetEndRoleName="Verify Recieved" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="5f048115-9cea-40c9-8ea4-95839bcc5e51" LastKnownName="Verify Recieved" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f3bb04d4-89ed-433c-859e-5cd4dad4fe28" name="HumanResource" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="847faf91-a691-4b7b-a573-76f0e2c47c28" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="fcfc9369-a07b-4d78-8c82-486a1d40cd77" name="Verify Recieved" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="27efc1f8-e804-4586-9de6-014550089292" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="fb0e6194-31d0-421c-9271-649d4c01fa4a" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="5f048115-9cea-40c9-8ea4-95839bcc5e51" name="Verify Recieved" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="c4f459ff-6958-4510-b921-a68026d6efb5" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="b667c719-c80c-41bb-a77f-df920e23e175" name="ModelingProject3">
+    <elementDefinition Id="854d948a-380b-48ae-8e50-0a06d1babcf7" />
+  </package>
+</useCaseModelRoot>
